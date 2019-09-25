@@ -1,0 +1,141 @@
+html, body {
+  width: 100%;
+  font-family: 'Amatic SC', cursive;
+  background-image: url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Minimalist-Crumpled-Paper-Simple-Background-Image.jpg);
+
+  background-position: fixed;
+  background-size: 100%;
+
+
+
+
+
+body {
+	background-color: white;
+	font-family: 'Amatic SC', cursive;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Permanent Marker', cursive;
+  color: #1B400D;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+img {
+	justify-content: center;
+}
+
+
+.text {
+	width: 200px;
+	float: right;
+	padding-right: 200px;
+	font-size: 30px;
+}
+
+
+
+
+<!-- barre d'acceuil -->
+
+header {
+  width: 100%;
+}
+
+nav {
+margin: 0;
+width: 100%;
+background-color: black;
+text-align: center;
+
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 28px;
+  font-size: 25px;
+  text-decoration: none;
+
+  
+}
+
+
+nav :hover {
+  text-decoration: underline;
+}
+
+
+#menu{
+    margin-left: 100px;
+}
+#menu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+}
+#menu li{
+    float: left;
+    margin: auto;
+    padding: 10px;
+    background:linear-gradient(90deg;rgba(255,255,255,0) 0%,rgba(255,255,255,0.2)25%,rgba(255,255,255,0.2)75%,rgba(255,255,255,0)100%) ;
+    box-shadow: 0 0 25px rgba(0,0,0,0.1),inset 0 0 1 rgba(255,255,255,0.6);
+    text-decoration: none;
+}
+#menu li a{
+    display: block;
+    width: 140px;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 5px;
+    list-style-type: none;
+    
+    }
+
+
+
+
+
+
+
+
+#footer{
+	border-width: 2px;
+	border-style: groove;
+	border-color: #243d25;
+	padding: 50px;
+	border-right: 10px;
+	border-left: 10px;
+	background: #243d25;
+	color: #243d25;
+}
+
+
+
+#twitter{
+	height: 50px;
+	padding: 50px; 
+}
+
+
+#fb{
+	height: 50px;
+	padding: 50px; 
+}
+
+#insta{
+	height: 50px;
+	padding: 50px; 
+}
