@@ -1,0 +1,18 @@
+.boitetext{
+  display: flex;
+  background-color:lavenderblush;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  text-align:center;
+}
+
+.boite{
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+.fix-both{
+  align-items: flex-end;
+}

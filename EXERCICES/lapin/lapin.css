@@ -1,0 +1,160 @@
+body {
+  margin: 0 auto;
+  width: 960px;
+  background: #f8f8fa;
+  font-family: cursive;
+}
+
+h1 {
+  text-align: center;
+  padding: 0.6em;
+  color: #666;
+  font-size: 2.8em;
+}
+
+h3{
+  color: #fff;
+  margin: 0;
+}
+
+.contenant {
+  background: #88d8b0;
+  padding: 1em;
+  margin: 0.4em;
+  display: flex;
+}
+
+.textContenant {
+  padding: 1em;
+  background: #f2f2f2;
+}
+.textContenant p {
+  margin: 0;
+  padding: 0.8em;
+}
+
+.imgContenant {
+  display: block;
+  padding: 0.6em;
+}
+.imgContenant img{
+  float: right;
+  clear: both;
+  padding: 0.6em;
+}
+
+
+
+
+
+
+
+
+
+.conteneur {
+  background: #88d8b0;
+  padding: 1em;
+  margin: 0.4em;
+  display: flex;
+}
+
+.textContent {
+  padding: 1em;
+  background: #f2f2f2;
+}
+.textContent p {
+  margin: 0;
+  padding: 0.8em;
+}
+
+.imgContent {
+  display: block;
+  padding: 0.6em;
+}
+.imgContent img{
+  float: left;
+  clear: both;
+  padding: 0.6em;
+}
+
+
+.contenu {
+  background: #88d8b0;
+  padding: 1em;
+  margin: 0.4em;
+  display: flex;
+}
+
+.textContenu {
+  padding: 1em;
+  background: #f2f2f2;
+}
+.textContenu p {
+  margin: 0;
+  padding: 0.8em;
+}
+.milieu{
+  display: flex;
+}
+
+
+
+
+<!m>
+
+#menu{
+    margin-left: 100px;
+}
+#menu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+}
+#menu li{
+    float: left;
+    margin: auto;
+    padding: 15px;
+    background:linear-gradient(90deg;rgba(255,255,255,0) 0%,rgba(255,255,255,0.2)25%,rgba(255,255,255,0.2)75%,rgba(255,255,255,0)100%) ;
+    box-shadow: 0 0 25px rgba(0,0,0,0.1),inset 0 0 1 rgba(255,255,255,0.6);
+    text-decoration: none;
+}
+#menu li a{
+    display: block;
+    width: 100px;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 5px;
+    list-style-type: none;
+    }
+header {
+  width: 100%;
+
+}
+
+nav {
+margin: 0;
+background-color: black;
+text-align: center;
+
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 28px;
+  font-size: 25px;
+  text-decoration: none;
+  
+}
+
+
+nav :hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}

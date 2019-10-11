@@ -1,0 +1,369 @@
+html, body {
+  width: 100%;
+  font-family: 'Amatic SC', cursive;
+}
+
+
+<--!container-->
+
+
+
+<!-- barre d'acceuil -->
+
+header {
+  width: 100%;
+  
+  
+}
+
+nav {
+margin: 0;
+width: 100%;
+background-color: black;
+text-align: center;
+
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 28px;
+  font-size: 25px;
+  text-decoration: none;
+  font-color: whitesmoke;
+
+  
+}
+
+
+nav :hover {
+  text-decoration: underline;
+}
+
+
+#menu{
+    margin-left: 100px;
+}
+#menu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+}
+#menu li{
+    float: left;
+    margin: auto;
+    padding: 10px;
+    background:linear-gradient(90deg;rgba(255,255,255,0) 0%,rgba(255,255,255,0.2)25%,rgba(255,255,255,0.2)75%,rgba(255,255,255,0)100%) ;
+    box-shadow: 0 0 25px rgba(0,0,0,0.1),inset 0 0 1 rgba(255,255,255,0.6);
+    text-decoration: none;
+}
+#menu li a{
+    display: block;
+    width: 140px;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 5px;
+    list-style-type: none;
+    
+    }
+
+
+
+
+
+
+
+
+#footer{
+	border-width: 2px;
+	border-style: groove;
+	border-color: #243d25;
+	padding: 50px;
+	border-right: 10px;
+	border-left: 10px;
+	background: #243d25;
+	color: #243d25;
+}
+
+
+
+#twitter{
+	height: 50px;
+	padding: 50px; 
+}
+
+
+#fb{
+	height: 50px;
+	padding: 50px; 
+}
+
+#insta{
+	height: 50px;
+	padding: 50px; 
+}
+
+
+essai slide
+
+
+body {
+    margin: 0;
+    font-family: 'Cookie', cursive;
+}
+
+#slider {
+    position: relative;
+    max-width: 100%;
+    height: 700px;
+}
+
+#slides {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    max-height: 100%;
+}
+
+#slides figure {
+    display: inline-block;
+    width: 100vw;
+    max-height: 100%;
+    margin: 0;
+}
+
+ figure img {
+       
+    position: relative;
+    top: 300px;
+    transform: translateY(-50%);
+}
+
+#slides figure figcaption {
+    position: absolute;
+    bottom: 0;
+    padding: 2.5em 0;
+    text-align: center;
+    width: inherit;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+
+}
+@keyframes slide {
+    0%, 20%, 100% {
+        left: 0;
+         /* cuisine/img/tweet1.png; */
+    }
+    35%, 50% {
+        left: -100vw;
+         /* cuisine/img/tweet6.png; */
+    }
+    70%, 95% {
+        left: -200vw;
+        /* cuisine/img/tweet3.png; */
+    }
+}
+
+#slides {
+    /... Code précédent .../
+    /CSS3 keyframes animation/
+    animation-name: slide;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+#slides {
+    animation: slide 20s infinite ease-in-out forwards;
+}
+#slides:hover {
+    animation-play-state: paused; /* Mise en pause de l'animation */
+}
+.dots_commands  {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    padding:0;
+    margin: 0;
+    text-align: center;
+}
+
+.dots_commands li {
+    display: inline;
+    padding: 0; 
+    margin: 0;
+}
+
+.dots_commands label {
+    position: relative;
+    display: inline-block;
+    height:8px; width: 8px;
+    margin: 0 5px;
+    text-indent: -9999px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.55) inset;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    display: none;
+}
+input[type="radio"]#show_slide1:checked ~ nav .dots_commands li:nth-of-type(1) label,
+input[type="radio"]#show_slide2:checked ~ nav .dots_commands li:nth-of-type(2) label,
+input[type="radio"]#show_slide3:checked ~ nav .dots_commands li:nth-of-type(3) label {
+    outline: none;
+    background: #363534;
+}
+
+input[type="radio"]#show_slide1:checked ~ div#slides {
+    animation: none;
+    left: 0;
+}
+
+input[type="radio"]#show_slide2:checked ~ div#slides {
+    animation: none;
+    left: -100vw;
+}
+
+input[type="radio"]#show_slide3:checked ~ div#slides {
+    animation: none;
+    left: -200vw;
+}
+#play {
+    position: absolute;
+    cursor: pointer;
+    bottom: 2em;
+    right: 2em;
+    width: 0;
+    height: 0;
+    border-top: 1em solid transparent;
+    border-bottom: 1em solid transparent;
+    border-left: 1em solid rgba(255,255,255,0.7);
+    display: none;
+    text-indent: -9999px;
+}
+input[type="radio"]:not(:nth-last-of-type(1)):checked ~ nav label#play {
+    display: block;
+}
+input[type="radio"]#play:checked ~ div#slides {
+    animation-name: slide;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+<com>
+
+
+
+.container {
+	max-width:350px;
+	width:50%;
+	margin:0 auto;
+	position:relative;
+	background-color: #243d25;
+	
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], 
+#contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+	background:#F9F9F9;
+	padding:25px;
+	margin:50px 0;
+	width: 75%;
+	
+}
+
+#contact h3 {
+	color: black;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+
+fieldset {
+	border: medium none ;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 50%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	-webkit-transition:border-cotlor 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	font-size: 20px;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:rgba(56, 58, 54, 0.39);
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	background:rgb(22, 22, 22);
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}

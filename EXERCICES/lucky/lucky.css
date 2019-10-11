@@ -1,0 +1,65 @@
+body{
+    background: url("https://media2.giphy.com/media/3ov9jJuT2pEVMRMas0/source.gif") ;
+     background-repeat: no-repeat;
+     background-size: cover;
+    width: 110%;
+    overflow: hidden;
+    margin: 0;
+
+
+}
+img {
+    no-repeat: ;
+}
+.perso{
+    position: absolute;
+    top: 520px;
+    left: 100px;
+    animation-name: drive2;
+    animation: drive2 2s infinite;
+    rotateZ(80deg)
+}
+
+
+.mario{
+    position: absolute;
+    top: 520px;
+    left: 30px;
+    animation: drive 2s infinite;
+
+}
+
+.feu{
+    position: absolute;
+    top: 520px;
+    left: 1300px;
+   
+}
+
+@keyframes drive{
+    0% {top:520px; left:30px}
+    25% {top:520px; left:90px}
+    35% {top:520px; left:180px}
+    50% {top:520px; left:500px}
+    65% {top:520px; left:800px}
+    75% {top:520px; left:1200px}
+    100% {top:520px; left:1200px}
+
+
+    /* from{transform: translateX(0)}
+    to{transform: translateX(1200px)} */
+}
+@keyframes drive2{
+    0% {top:520px; left:100px}
+    25% {top:520px; left:200px}
+    35% {top:520px; left:900px}
+    50% {top:250px; left:1300px rotateZ(80deg)}
+    65% {top:50px; left:1300px rotateZ(-180deg)}
+    75% {top:250px; left:1400px}
+    85% {top:520px; left:1500px}
+    100% {top:520px; left: 1900px }
+
+
+
+
+}
